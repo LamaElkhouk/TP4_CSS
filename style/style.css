@@ -1,0 +1,123 @@
+:root
+{
+    /*Typography*/
+    --bold:700;
+    --semi-bold:600;
+    --normal:  400;
+    /*Colors*/
+    --black:#000000;
+    --light-grey:#e8e8e8;
+    --white-2: #f8f8f8;
+    --blue:#67b0d6;
+    --white:#ffffff;
+    --orange:#F6846A;
+    --dark-grey: #323c3f;
+    --grey:#A6A6AD;
+
+    /*fonts*/
+    --noto: 'Noto Sans', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+
+    /*box-shadow*/
+}
+*,*::before,*::after{
+    box-sizing:border-box;
+}
+html{
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a,a:hover,a:visited{
+    text-decoration: none;
+}
+body{
+    background-color: var(--light-grey);
+    font-family: var(--noto);
+}
+
+/*header*/
+.menu{
+    background-color: var(--blue);
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    flex: 1 1 0%;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+.menu i.fa-cart-shopping
+{
+    cursor: pointer;
+    margin-left: auto; /* Positionne les icônes à droite */
+    color:var(--dark-grey);
+}
+.icone-burger{
+    cursor: pointer;
+    color:var(--dark-grey);
+}
+.menu i.fa-tag{
+    cursor: pointer;
+    margin-left: 2rem;
+    color:var(--dark-grey);
+}
+.menu p{
+    color:var(--white);
+    margin-left: 2rem;
+}
+header{
+    height: 10vh;
+    background-color: var(--white-2);
+}
+.new-collection{
+    position: relative;
+}
+header img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+header figcaption{
+    position: absolute;
+    right: 2rem;
+    top: 6rem;
+}
+.button-discover{
+    color: var(--white);
+    background-color: var(--orange);
+    font-size: 2vw;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+h1{
+    font-size: 6vw;
+    color: var(--dark-grey);
+    margin-bottom: 5rem;
+}
+.sous-titre-h1{
+    display: block;
+    font-size: 4vw;
+    color: var(--grey);
+    margin-top: 1.5rem;
+}
+
+
+/*********************************************  main ********************************/
+main{
+    
+}
+.fa-magnifying-glass{
+    color:var(--grey);
+}
+
+
+
+
+
+
