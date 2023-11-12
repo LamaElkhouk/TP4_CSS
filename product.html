@@ -13,11 +13,110 @@
     <title>product</title>
 </head>
 <body>
-    <header>
+    <!--debut header-->
+    <nav class="menu menu-product">
+
+        
+        <div class="menu-gauche">
+            <i class="fa-solid fa-arrow-left"></i> <!-- icon fleche-->
+            <a class="onglet">Woman, Dresses</a>
+        </div>
+        <div class="menu-milieu">
+            <a class="bouton-add-to-cart">ADD TO CART</a>
+            <a class="bouton-add-to-wishlist">ADD TO WISHLIST</a>
+        </div>
+        <div class="menu-droite">
+            <i class=" fa-solid fa-cart-shopping"></i> <!--icon panier-->
+            <div class="bulle">3</div>
+        </div>
+    </nav>
+    <header class="header-product">
+        <figure class="product">
+            <img alt="img product" src="./img/product/img.png">
+            <figcaption>
+                <div class="list-img">
+                    
+                    <div class="img-current"></div>
+                    <div class="passer-img-suivante"></div>
+                    <div class="passer-img-suivante"></div>
+                </div>
+                <div class="description-product">
+                    <h1 class="h1-product">Elegant pink dresses </h1> <a>$605,00</a>
+                </div>
+            </figcaption>
     </header>
+    <!--debut main-->
     <main>
+        <!--section description-->
+        <section class="section-description">
+            <i class="fa-solid fa-plus"></i>
+            <h2>Description</h2>
+        </section>
+        <!--liste produits-->
+        <section class="color-size-product">
+            <section class="color">
+                <h2><img class="icon-color-size-product" src="./img/product/icon.png" alt="color icon">Color :</h2>
+                <h3 class="h3-product">Choose a color for item</h3>
+                <div class="list-choice">
+                    <div class="choice choice-color1">
+                    </div>
+                    <div class="choice choice-color2"></div>
+                    <div class="choice choice-color3"></div>
+                </div>
+            </section>
+            <div class="trait"></div>
+            <section class="size">
+                <h2><img class="icon-color-size-product" src="./img/product/hanger.png" alt="size icon">Size :</h2>
+                <h3 class="h3-product">Size available for item</h3>
+                <div class="list-choice">
+                    <div class="choice choice-size">6</div>
+                    <div class="choice choice-size">8</div>
+                    <div class="choice choice-size">10</div>
+                    <div class="choice choice-size">12</div>
+                    <div class="choice choice-size">14</div>
+                </div>
+
+            </section>
+        </section>
+        <a class="bouton-add-to-cart2">Add to cart</a>
 
     </main>
+    <!--debut footer-->
+    <footer>
+        <div class="header-footer">
+            <p>SHARE ON</p>
+            <div class="trait"></div>
+        </div>
+        
+        <section class="liste_network">
+            <div class="one-network">
+                <div class="circle twitter">
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                </div>
+                <div class="nb-abonne">
+                    <p>112</p>
+                </div>
+            </div>
+            <div class="one-network">
+                <div class="circle facebook">
+                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                </div>
+                <div class="nb-abonne">
+                    <p>332</p>
+                </div>
+            </div>
+            <div class="one-network">
+                <div class="circle pinterest">
+                    <i class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i>
+                </div>
+                <div class="nb-abonne">
+                    <p>205</p>
+                </div>
+            </div>
+
+        </section>
+
+    </footer>
     
 </body>
 </html>

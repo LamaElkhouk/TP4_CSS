@@ -14,10 +14,10 @@
 </head>
 <body>
     <!--debut header-->
-    <nav class="menu">
+    <nav class="menu menu-index">
 
         <i class="fa-solid fa-bars icone-burger"></i> <!-- icon burger-->
-        <p>eCommerce</p>
+        <a class="onglet">eCommerce</a>
         <i class="fa-solid fa-cart-shopping"></i> <!--icon panier-->
         <i class="fa-solid fa-tag"></i><!--icon tag-->
     </nav>
@@ -25,7 +25,7 @@
         <figure class="new-collection">
             <img alt="new collection" src="./img/index/new-collection.png">
             <figcaption>
-                <h1>New collectiont ! <span class="sous-titre-h1">Out now</span></h1>
+                <h1>New collection ! <span class="sous-titre-h1">Out now !</span></h1>
                 <a class="button-discover"href="#">DISCOVER</a>
             </figcaption>
         </figure>
@@ -33,14 +33,84 @@
     <!--debut main-->
     <main>
         <!--section search-->
-        <form action="#" >
-            <input type="text" id="search"  placeholder="Search a item">
-            <i class="fa-solid fa-magnifying-glass"></i>
+        <form action="#" class="form-search">
+            <input type="text" id="search"  placeholder="Search a item...">
         </form>
+        <!--liste produits-->
+        <section class="products">
+            <div class="mini-trait"></div>
+            <h2 class="titre-h2-index">OUR POPULAR PRODUCTS</h2>
+            <div class="mini-trait"></div>
+            <section class="list-product">
+                <figure class="one-product">
+                    <img alt="produit 1 " src="./img/index/produit1.png">
+                    <figcaption>
+                        <h3>Shirt</h3>
+                        <p>$ 249,00</p>
+                    </figcaption>
+                </figure>
+                <figure class="one-product">
+                    <img alt="produit 2 " src="./img/index/produit2.png">
+                    <figcaption>
+                        <h3>Shirt</h3>
+                        <p>$ 249,00</p>
+                    </figcaption>
+                </figure>
+                <figure class="one-product">
+                    <img alt="produit 3 " src="./img/index/produit3.png">
+                    <figcaption>
+                        <h3>Shirt</h3>
+                        <p>$ 249,00</p>
+                    </figcaption>
+                </figure>
+                <figure class="one-product">
+                    <img alt="produit 4 " src="./img/index/produit4.png">
+                    <figcaption>
+                        <h3>Shirt</h3>
+                        <p>$ 249,00</p>
+                    </figcaption>
+                </figure>
+                
+            </section>
+            <img src="./img/loading.png" alt="loading">
+                <a class="bouton_all_products">View all items</a>
+        </section>
 
     </main>
     <!--debut footer-->
     <footer>
+        <div class="header-footer">
+            <p>SHARE ON</p>
+            <div class="trait"></div>
+        </div>
+        
+        <section class="liste_network">
+            <div class="one-network">
+                <div class="circle twitter">
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                </div>
+                <div class="nb-abonne">
+                    <p>112</p>
+                </div>
+            </div>
+            <div class="one-network">
+                <div class="circle facebook">
+                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                </div>
+                <div class="nb-abonne">
+                    <p>332</p>
+                </div>
+            </div>
+            <div class="one-network">
+                <div class="circle pinterest">
+                    <i class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i>
+                </div>
+                <div class="nb-abonne">
+                    <p>205</p>
+                </div>
+            </div>
+
+        </section>
 
     </footer>
     
